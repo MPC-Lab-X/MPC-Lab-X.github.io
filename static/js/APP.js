@@ -100,3 +100,21 @@ window.addEventListener("load", function () {
     }
   }, 200);
 });
+
+function addGoogleAnalytics() {
+  const script = document.createElement("script");
+  script.src = "https://www.googletagmanager.com/gtag/js?id=G-L51JYCTGX7";
+  script.async = true;
+  document.head.appendChild(script);
+
+  script.onload = function () {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-L51JYCTGX7");
+  };
+}
+
+addGoogleAnalytics();
