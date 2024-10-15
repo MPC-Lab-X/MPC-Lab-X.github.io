@@ -23,7 +23,7 @@ MathPhysChemLab is a powerful, pure front-end Web-APP designed to enhance learni
 
 ## How to Use
 
-Visit the [MathPhysChemLab](https://mathscichem.github.io) website.
+Visit the [MathPhysChemLab](https://mpc-lab-x.github.io) website.
 
 ## License
 
